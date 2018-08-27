@@ -1,0 +1,17 @@
+---
+
+- memory: 2048
+- cpus: 2
+
+- vms:
+  - name: vm1
+    os: bento/centos-7.3
+  - name: vm2
+    os: bento/centos-6.8
+    memory: 4096
+  - name: vm3
+    os: ubuntu/xenial64
+  - name: vm4
+    os: ubuntu/trusty64
+    memory: 3072
+    cpus: 4
