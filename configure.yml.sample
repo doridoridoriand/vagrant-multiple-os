@@ -1,5 +1,7 @@
 ---
 
+# Required
+# Default values for VMs
 - memory: 2048
 - cpus: 2
 
