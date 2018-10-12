@@ -12,8 +12,8 @@
     os: bento/centos-6.8
     memory: 4096
   - name: vm3
-    os: ubuntu/xenial64
+    os: alpine/alpine64
   - name: vm4
-    os: ubuntu/trusty64
-    memory: 3072
+    os: ubuntu/bionic64
+    memory: 4096
     cpus: 4
