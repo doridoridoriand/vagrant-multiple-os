@@ -17,3 +17,6 @@
     os: ubuntu/bionic64
     memory: 3072
     cpus: 4
+  - name: vm5
+    os: archlinux/archlinux
+    cpus: 6
