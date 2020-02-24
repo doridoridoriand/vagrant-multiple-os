@@ -6,8 +6,8 @@
 ## OS Included
 - CentOS 7.5
 - CentOS 6.8
-- Ubuntu 16.04 LTS
 - Ubuntu 18.04 LTS
+- Ubuntu 19.10
 
 ## How to use
 ```bash
