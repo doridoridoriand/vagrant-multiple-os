@@ -7,16 +7,16 @@
 
 - vms:
   - name: vm1
-    os: bento/centos-7.5
+    os: almalinux/9
   - name: vm2
-    os: bento/centos-6.8
+    os: bento/rockylinux-9
     memory: 4096
   - name: vm3
-    os: ubuntu/bionic64
+    os: ubuntu/lunar64
   - name: vm4
-    os: ubuntu/eoan64
+    os: ubuntu/kinetic64
     memory: 3072
     cpus: 4
   - name: vm5
-    os: debian/stretch64
+    os: debian/bullseye64
     cpus: 6
