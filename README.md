@@ -1,7 +1,7 @@
 # Multiple OS with Vagrant
 ## Dependencies
-- vagrant (>= 5.2)
-- Virtualbox (>= 2.0.3)
+- vagrant (>= 2.2.19)
+- Virtualbox (>= 6.1)
 
 ## How to use
 ```bash
