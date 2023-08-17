@@ -1,4 +1,4 @@
-# Multiple OS with Vagrant
+# Multiple guest OS with Vagrant
 ## Dependencies
 - vagrant (>= 2.2.19)
 - Virtualbox (>= 6.1)
