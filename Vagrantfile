@@ -1,6 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+require 'yaml'
+
 configure = YAML.load_file(File.join(__dir__, 'configure.yml'))
 
 memory_default = configure.map {|r| r['memory']}.compact.first
