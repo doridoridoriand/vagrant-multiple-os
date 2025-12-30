@@ -10,7 +10,7 @@ cpu_default    = configure.map {|r| r['cpus']}.compact.first
 vms            = configure.map {|r| r['vms']}.compact.flatten
 
 vms.map {|vm| vm.store('memory', memory_default) unless vm['memory']}
-vms.map {|vm| vm.store('cpus',   cpu_default)    unless vm['cpu']}
+vms.map {|vm| vm.store('cpus',   cpu_default)    unless vm['cpus']}
 
 Vagrant.configure(2) do |config|
   vms.each_with_index do |vm, i|
